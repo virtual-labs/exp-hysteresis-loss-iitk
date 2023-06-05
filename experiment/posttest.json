@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. The Hysteresis loop of a magnetic material has an area of 5 cm2 with the scales given as 1 cm = 2 AT and 1 cm = 50 mWb. At 50 Hz the total hysteresis loss is ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "15 W",
+        "b": "20 W",
+        "c": "25 W",
+        "d": "30 W"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,16 +19,16 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Hysteresis loss is given by:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "We = K B2maxf^2 t^2 W",
+        "b": "Wh = η Bm^1.6 f V  W",
+        "c": "Wcu = (I1^2 R1 + I2^2 R2) W",
+        "d": "Wcu = (I1^2 R1) W"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
+        "a": "Explanation 2",
+        "b": "Explanation 1 <a href='https://testbook.com/question-answer/hysteresis-loss-is-given-by--5ed63043f60d5d695842acb9'>here</a>",
         "c": "Explanation 2",
         "d": "Explanation 2"
       },

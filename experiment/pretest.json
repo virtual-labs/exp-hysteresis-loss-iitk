@@ -2,37 +2,37 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. B-H curve is also known as ______.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Curie point curve",
+        "b": "Open circuit characteristics",
+        "c": "Hhysteresis loop",
+        "d": "Magnetisation curve "
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 2",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 1  <a href='https://www.tutorialspoint.com/magnetic-hysteresis-including-b-h-curve-importance-of-hysteresis-loop#:~:text=The%20B%2DH%20curve%20or%20magnetisation,and%20magnetising%20force%20(H).'>here</a>"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Hysteresis loss depends on which of the following factors?",
+      "answers": {
+        "a": "Frequency of magnetic reversals",
+        "b": "Square of the Steinmetz hysteresis coefficient",
+        "c": "Square of the thickness of the material",
+        "d": "Square of the maximum flux density"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='https://testbook.com/question-answer/hysteresis-loss-will-depend-on-_______--6221e0b830d499a819edfca0'>here</a>",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]
