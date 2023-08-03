@@ -4,7 +4,7 @@
 <b>Discipline | <b>Physical Science
 :--|:--|
 <b> Lab | <b> Physics Lab
-<b> Experiment|     <b> To draw hysteresis (B-H curve) of a specimen in the form of transformer and to determine its hysteresis loss.
+<b> Experiment|    <b> To draw hysteresis (B-H curve) of a specimen in the form of transformer and to determine its hysteresis loss.
 
 ### About the Experiment 
 
@@ -19,16 +19,14 @@ To draw the hysteresis curve of a specimen in the form of a transformer, the fol
 <br>
  The hysteresis loss can be determined from the area enclosed by the hysteresis loop. The hysteresis loss is proportional to the energy that is lost as heat due to the internal friction within the magnetic material as it is magnetized and demagnetized. To calculate the hysteresis loss, the area enclosed by the hysteresis loop can be calculated using numerical methods or graphical methods, such as the trapezoidal rule. The result is the hysteresis loss per unit volume of the magnetic material.<br><br>
 
-<b>Name of Developer | <b> SNEHA KUMARI 
+<b>Name of Developer | <b>  Dr. ASHUTOSH TIWARI 
 :--|:--|
 <b> Institute | <b>  RAJKIYA ENGINEERING COLLEGE BANDA
-<b> Email id|     <b> snehakumarihzb1@gmail.com
-<b> Department |  INFORMATION TECHNOLOGY
+<b> Email id|     <b> ashutosh.tiwari@recbanda.ac.in
+<b> Department |  Mechanical Engineering
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Dr. ASHUTOSH TIWARI | FACULTY | APPLIED SCIENCE | RAJKIYA ENGINEERING COLLEGE BANADA | ashutosh.tiwari@recbanda.ac.in
-2 | SNEHA KUMARI | STUDENT | INFORMATION TECHNOLOGY | RAJKIYA ENGINEERING COLLEGE BANADA | snehakumarihzb1@gmail.com
-3 | RAHUL PUSHPAKAR | STUDENT | MECHANICAL ENGINEERING | RAJKIYA ENGINEERING COLLEGE BANADA | rahulpushpker@gmail.com
+1| SNEHA KUMARI | STUDENT | INFORMATION TECHNOLOGY | RAJKIYA ENGINEERING COLLEGE BANADA | snehakumarihzb1@gmail.com
