@@ -23,7 +23,7 @@ To draw the hysteresis curve of a specimen in the form of a transformer, the fol
 :--|:--|
 <b> Institute | <b>  RAJKIYA ENGINEERING COLLEGE BANDA
 <b> Email id|     <b> ashutosh.tiwari@recbanda.ac.in
-<b> Department |  Mechanical Engineering
+<b> Department |  Applied Science and Humanities
 
 ### Contributors List
 
