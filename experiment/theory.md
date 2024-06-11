@@ -8,3 +8,21 @@ The plot of Hysteresis is known as a B-H curve, where B (The Material's Flux Den
 <img src="images/circuit .png" width="450" hight="400">
 
 <img src="images/formula.png" width="450" hight="400">
+
+### Interpreting the Hysteresis Curve:<br>
+1. The shape and size of the hysteresis loop provide valuable insights into the material's magnetic behavior. <br>
+2. The width of the loop indicates the magnitude of the energy dissipated as heat during each cycle of magnetization and demagnetization. This energy loss is known as hysteresis loss and is represented by the area enclosed within the hysteresis loop. <br>
+3. The coercivity (Hc) of the material, which represents the magnetic field strength required to reduce the material's magnetization to zero, can be determined from the hysteresis curve. <br>
+4. Additionally, the remanence (Br) and saturation magnetization (Bs) of the material, which denote the residual magnetization and the maximum attainable magnetization under the applied field, respectively, can also be inferred from the hysteresis curve.
+
+### Mathematical Representation:<br>
+The hysteresis loss (Ph) in a ferromagnetic material can be quantified using the formula:
+Ph = k * f * Bm * V <br>
+Ph is the hysteresis loss. <br>
+k is a material-specific constant.  <br>
+f is the frequency of the alternating magnetic field. <br>
+Bm is the maximum magnetic flux density. <br>
+α is the Steinmetz exponent. <br>
+V is the volume of the material. <br>
+
+Understanding the hysteresis curve and its associated parameters provides valuable information for the design and optimization of magnetic components and devices, such as transformers, inductors, and magnetic storage systems.
