@@ -1,1 +1,270 @@
 /* You CSS goes in here */
+/* You CSS goes in here */
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,200;8..30,300;8..30,400;8..30,900&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@500;700&display=swap');
+
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: "Piazzolla",serif;
+}
+html{
+    font-size: 62.5%;
+    /* 1rem= 10px */
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 0;
+  right: 0;
+  background-color: #fcbcbc;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 30x;
+}
+#lists{
+  margin-left: 20px;
+  padding: 8px 8px 8px 32px;
+  color:rgb(7, 7, 7);
+
+}
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff7f7;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #6b6969;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #e14545;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  animation: glowing 1300ms 5;
+}
+#needle, #move{
+  animation: probe 1000ms 8;
+}
+#move:hover
+{
+  fill: #9bf830;
+  cursor: pointer;
+}
+#needle:hover
+{
+  fill: #392e2e;
+
+}
+
+@keyframes probe{
+  0%{
+    fill: #fd4851;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  }
+  50%{
+    fill: #f83030;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  }
+  100%{
+    fill:#87acf0;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  }
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #fd2424;
+   
+    box-shadow: 0 0 5px #f0ecec;
+  }
+  50% {
+    background-color:  #f72727;
+ 
+
+    box-shadow: 0 0 20px #e9e3e3;
+  }
+  100% {
+    background-color:  #f82f2f;
+   
+
+    box-shadow: 0 0 5px #dbd7d7;
+  }
+}
+
+
+.openbtn:hover {
+  background-color:#f8f7f7;
+  color: #e14545;
+}
+li{
+  margin:10px;
+  font-size: 15px;
+}
+.mainSvg{
+    padding: 1em;
+    margin: 6em;
+    border: 10px solid rgb(2, 107, 172);
+    box-shadow:2px 2px 5px 4px rgba(14, 7, 7, 0.61);
+    border-radius: 10px;
+}
+.exp{
+    background-color: white;
+    color: #f70738;;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    border-radius: 15px;
+}
+.svg{
+    width: 80em;
+    height: 57em;
+    
+    margin-top: 6em;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 4em;
+     }
+
+
+/* table style */
+
+table{
+    margin-left: auto; 
+  margin-right: auto;
+   
+    padding: auto;
+    background-color: rgb(223, 230, 228);
+}
+th{
+    font-size: 1.5em;
+    padding: 5px 6px 4px 5px;
+    text-align: left;
+    background-color: rgb(247, 148, 118);
+  }
+  td{
+    border: 0px;
+    font-size: 25px;
+  }
+
+  label{
+   margin-right: 30px;
+    font-size: 2em;
+  }
+  .svg-image {
+    display: none;
+  }
+  .selected {
+    display: block;
+  }
+  #spanning{
+    font-size: 2em;
+    margin-left: 50px;
+  }
+  #start{
+    margin-top: 5px;
+    margin-left: 30%;
+    font-size: 2.5em;
+
+  }
+ 
+  #reset{
+    background-color: crimson;
+    color: white;
+    font-size: 2.5em;
+    /* margin-left: 40%; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 2px 25px 7px 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  #reset:hover{
+    background-color: #f8f7f7;
+    color: crimson;
+    border: 0.5px solid crimson;
+  
+  }
+  table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+    background-color: #f9f9f9;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4b183;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#finalResult {
+  margin-top: 2px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: green;
+}
+
+.hidden {
+  display: none;
+}
+
+#startSimulation {
+  background-color: green;
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 2px auto;
+  display: block;
+}
+
+#startSimulation:hover {
+  background-color: darkgreen;
+}
+#x-input, #y-input {
+  transition: fill 0.3s ease;
+  filter: drop-shadow(2px 2px 5px gray);
+}
+
+#x-input:hover, #y-input:hover {
+  fill: lightblue;
+  cursor: pointer;
+}
+
