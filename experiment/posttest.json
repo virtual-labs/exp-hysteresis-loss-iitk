@@ -2,38 +2,94 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. The Hysteresis loop of a magnetic material has an area of 5 cm2 with the scales given as 1 cm = 2 AT and 1 cm = 50 mWb. At 50 Hz the total hysteresis loss is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "15 W",
+        "b": "20 W",
+        "c": "25 W",
+        "d": "30 W"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct! The area of the loop (5 cm²) needs to be converted into actual energy using the scale factors: Energy = Area × scale factor for H × scale factor for B. The frequency of 50 Hz is then used to find total hysteresis loss: Hysteresis loss = Energy × frequency. Refer <a href='https://www.electrical4u.com/hysteresis-loss/'>here</a> for details.",
+        "b": "Incorrect, does not match the calculation using the given scales and frequency.",
+        "c": "Incorrect, overestimates the loss based on the given data.",
+        "d": "Incorrect, underestimates the loss based on the given data."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
-    },
+    }
+    ,
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. Hysteresis loss is given by:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "We = K B2maxf^2 t^2 W",
+        "b": "Wh = η Bm^1.6 f V  W",
+        "c": "Wcu = (I1^2 R1 + I2^2 R2) W",
+        "d": "Wcu = (I1^2 R1) W"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect,This formula is used to calculate eddy current loss, not hysteresis loss.",
+        "b": "Correct! Hysteresis loss is given by Wh = η Bm^1.6 f V, where η is a material constant, Bm is the maximum flux density, f is the frequency, and V is the volume. Refer <a href='https://testbook.com/question-answer/hysteresis-loss-is-given-by--5ed63043f60d5d695842acb9'>here</a> for more.",
+        "c": "Incorrect,This formula represents copper losses in a transformer or electrical machine.",
+        "d": "Incorrect,This is an incomplete representation of copper losses and not related to hysteresis loss."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
+    ,
+    {
+      "question": "3. Which factor does NOT affect hysteresis loss (Ph)?",
+      "answers": {
+        "a": "Frequency of the alternating magnetic field (f)",
+        "b": "Volume of the material (V)",
+        "c": "Resistivity of the material",
+        "d": "Maximum flux density (Bm)"
+      },
+      "explanations": {
+        "a": "Incorrect,Hysteresis loss increases with higher frequency.",
+        "b": "Incorrect,Larger volume results in greater loss.",
+        "c": "Correct! Resistivity affects eddy current losses, not hysteresis loss.",
+        "d": "Incorrect,Maximum flux density impacts the energy per cycle."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "4. Which material property influences the shape of the hysteresis loop?",
+      "answers": {
+        "a": "Electrical conductivity",
+        "b": "Magnetic permeability",
+        "c": "Curie temperature",
+        "d": "Coercivity"
+      },
+      "explanations": {
+        "a": "Incorrect,Conductivity impacts eddy currents, not hysteresis.",
+        "b": "Incorrect,Magnetic permeability affects the slope but not the loop shape.",
+        "c": "Incorrect,Curie temperature determines magnetic state but not loop shape.",
+        "d": "Correct! Coercivity defines the loop width and resistance to demagnetization."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. A magnetic material with a hysteresis loop area of 2.5 J/m³ is subjected to an alternating magnetic field at a frequency of 60 Hz. If the material has a volume of 0.01 m³, calculate the total hysteresis loss per second.",
+      "answers": {
+        "a": "1.5 W",
+        "b": "2.0 W",
+        "c": "1.0 W",
+        "d": "2.5 W"
+      },
+      "explanations": {
+        "a": "Incorrect, this underestimates the total loss as it misses the contribution of both the loop area and frequency.",
+        "b": "Incorrect, the calculated loss does not match the given parameters.",
+        "c": "Incorrect, this underestimates the loss based on the data provided.",
+        "d": "Correct! Hysteresis loss is calculated using the formula: Total Hysteresis Loss = Area × Volume × Frequency. Substituting the given values: Total Loss = 2.5 J/m³ × 0.01 m³ × 60 Hz = 2.5 W. Refer <a href='https://www.electrical4u.com/hysteresis-loss/'>here</a> for further explanation."
+      },
+      "correctAnswer": "d",
+      "difficulty": "hard"
+    }
+    
+    
+    
   ]
 }
