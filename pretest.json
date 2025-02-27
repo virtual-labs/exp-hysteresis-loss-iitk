@@ -1,0 +1,94 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. B-H curve is also known as ______.",
+      "answers": {
+        "a": "Curie point curve",
+        "b": "Open circuit characteristics",
+        "c": "Hysteresis loop",
+        "d": "Magnetisation curve"
+      },
+      "explanations": {
+        "a": "Incorrect, The Curie point refers to the temperature above which a material loses its magnetic properties.",
+        "b": "Incorrect, Open circuit characteristics relate to the behavior of electrical circuits, not magnetic materials.",
+        "c": "Incorrect, While the hysteresis loop is part of the B-H curve, it does not fully define it.",
+        "d": "Correct! The B-H curve or magnetization curve illustrates the relationship between flux density (B) and magnetizing force (H)."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The area of the hysteresis loop represents ______.",
+      "answers": {
+        "a": "Coercivity of the material",
+        "b": "Remanence of the material",
+        "c": "Energy loss per cycle",
+        "d": "Magnetic permeability"
+      },
+      "explanations": {
+        "a": "Incorrect, Coercivity measures the field strength required to reduce magnetization to zero, not energy loss.",
+        "b": "Incorrect, Remanence is the residual magnetization when the field is removed.",
+        "c": "Correct! The enclosed area is proportional to the energy dissipated as heat per cycle of magnetization.",
+        "d": "Incorrect, Magnetic permeability measures how easily a material supports the formation of a magnetic field."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Coercivity (Hc) refers to ______.",
+      "answers": {
+        "a": "The maximum flux density achieved",
+        "b": "The residual flux density when H = 0",
+        "c": "The magnetizing force required to bring B to zero",
+        "d": "The energy dissipated as heat during magnetization"
+      },
+      "explanations": {
+        "a": "Incorrect, Maximum flux density is known as saturation.",
+        "b": "Incorrect, Residual flux density is called remanence (Br).",
+        "c": "Correct! Coercivity is the magnetizing force needed to demagnetize the material.",
+        "d": "Incorrect, Energy loss during magnetization is related to hysteresis loss."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. What is the unit of magnetic flux density (B)?",
+      "answers": {
+        "a": "Weber (Wb)",
+        "b": "Tesla (T)",
+        "c": "Amperes per meter (A/m)",
+        "d": "Henry (H)"
+      },
+      "explanations": {
+        "a": "Incorrect, Weber measures total magnetic flux, not flux density.",
+        "b": "Correct! Tesla measures flux density, which is magnetic flux per unit area.",
+        "c": "Incorrect, Amperes per meter is the unit for magnetizing force (H).",
+        "d": "Incorrect, Henry measures inductance, unrelated to flux density."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. What is remanence (Br) in the B-H curve?",
+      "answers": {
+        "a": "The magnetization when H = 0",
+        "b": "The force required to saturate the material",
+        "c": "The energy lost per cycle",
+        "d": "The resistance to magnetization"
+      },
+      "explanations": {
+        "a": "Correct! Remanence represents the residual magnetization after removing the applied field.",
+        "b": "Incorrect, Saturation represents maximum magnetization.",
+        "c": "Incorrect, Energy lost per cycle is hysteresis loss.",
+        "d": "Incorrect, Resistance to magnetization refers to permeability."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+    
+    
+    
+    
+  ]
+}
