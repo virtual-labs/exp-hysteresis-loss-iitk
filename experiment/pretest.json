@@ -13,7 +13,7 @@
         "a": "Incorrect, The Curie point refers to the temperature above which a material loses its magnetic properties.",
         "b": "Incorrect, Open circuit characteristics relate to the behavior of electrical circuits, not magnetic materials.",
         "c": "Incorrect, While the hysteresis loop is part of the B-H curve, it does not fully define it.",
-        "d": "Correct! The B-H curve or magnetization curve illustrates the relationship between flux density (B) and magnetizing force (H). Refer <a href='https://www.tutorialspoint.com/magnetic-hysteresis-including-b-h-curve-importance-of-hysteresis-loop#:~:text=The%20B%2DH%20curve%20or%20magnetisation,and%20magnetising%20force%20(H).'>here</a> for more information."
+        "d": "Correct! The B-H curve or magnetization curve illustrates the relationship between flux density (B) and magnetizing force (H)."
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
